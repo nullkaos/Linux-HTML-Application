@@ -2,7 +2,7 @@
 
 main()
 {
-readarray -t pids < ../pids
+readarray -t pids < pids
 programGuiID=${pids[0]}
 serverID=${pids[1]}
 

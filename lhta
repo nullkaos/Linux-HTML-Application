@@ -27,7 +27,7 @@ class Main:
         cmd = ["busybox", "httpd", "-p", "8080", "-f", "-h", "./"]
         progPid = os.getpid()
         spPid = subprocess.Popen(cmd, stdout=subprocess.PIPE)
-        file = open("pids", 'w')
+        file = open("cgi-bin/pids", 'w')
         file.write(str(progPid) + '\n' + str(spPid.pid))
         file.close()
 
