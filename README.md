@@ -27,7 +27,6 @@ Edit the value with one bellow : <br>
     - Tooltip = tooltip <br>
     - Notification = notification<br>
     - Combo = combo <br>
-  and lastly <br>
     - Drag and Drop = dnd <br>
 <br>
 <hr>
