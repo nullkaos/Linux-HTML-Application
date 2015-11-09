@@ -1,46 +1,51 @@
 # Linux-HTML-Application
-A spin off of Windows HTML Application
+A spin off of Windows HTML Application!
 
 &nbsp;&nbsp;&nbsp;&nbsp;By combining a small server with a GUI designed using
 Python and Gtk glade one gets the core of LHTA. Using the small server one can
 execute cgi scripts that can be based off of Bash, Pearl, Python or anything
 else considered a scripting language. The only thing currently un-availabe is
-using Php. <br>
+using Php. <br> <br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;To change the window frame, simply edit the .glade file
-located in the resources directory. Edit between lines 5 through 10 with the
-tag <br>  <property name="type_hint">toolbar</property> <br>
+located in the resources directory. <br>Edit between lines 5 through 10 with the
+tag <br>  
+     <property name="type_hint">toolbar</property> <br>
 Edit the value with one bellow : <br>
 
-Normal = Remove Line 10 Content<br>
-Dialog = dialog<br>
-Menu = menu<br>
-Toolbar = toolbar<br>
-Splash Screen = splashscreen<br>
-Utility = utility<br>
-Dock = dock<br>
-Desktop = desktop<br>
+Normal = Remove the mentioned tag <br>
+Dialog = dialog <br>
+Menu = menu <br>
+Toolbar = toolbar <br>
+Splash Screen = splashscreen <br>
+Utility = utility <br>
+Dock = dock <br>
+Desktop = desktop <br>
 Drop Down Menu = dropdown-menu <br>
-Popup Menu = popup-menu<br>
-Tooltip = tooltip<br>
-Notification = notification<br>
-Combo = combo<br>
+Popup Menu = popup-menu <br>
+Tooltip = tooltip <br>
+Notification = notificatio n<br>
+Combo = combo <br>
 ans lastly <br>
-Drag and Drop = dnd<br>
+Drag and Drop = dnd <br>
 <br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;To handle window positioning, simply .glade file
 located in the resources directory. Edit between lines 5 through 10 with the tag
-<br> <property name="window_position">center</property> <br>
- Edit the value with one bellow : <br>
+<br>
+     <property name="window_position">center</property> <br>
+Edit the value with one bellow : <br>
 
-None = Remove Line 10 Content<br>
+None = Remove the mentioned tag<br>
 Center = center <br>
 Mouse = mouse <br>
 Always Center = center-always <br>
 Center on Parent = center-on-parent <br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;To add an icon simply add or edit between lines 5 - 10
 with either : <br>
     <property name="icon_name">application-exit</property> <br>
-# OR <br>
+ OR <br>
      <property name="icon">icon.png</property> <br>
 Icon_Name would be the name of a standard system icon. Ie : refresh or play or
 stop, etc. Just having Icon means you need to give the path of an icon -
